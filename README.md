@@ -3,11 +3,15 @@
 ## Description
 This program simulates a **progress bar** for a task using C.  
 It dynamically updates the progress in the console, showing how much work is done with a moving progress bar.
-
-## Demo Video
-[![Watch the demo](progress.mp4)
-
-
+## Example output
+```
+Task 1: [=====                         ] 20%
+Task 1: [==========                    ] 40%
+Task 1: [===============               ] 60%
+Task 1: [====================          ] 80%
+Task 1: [==============================] 100%
+Task completed
+```
 
 ---
 
@@ -47,6 +51,7 @@ It dynamically updates the progress in the console, showing how much work is don
 ```bash
 gcc yourfile.c -o progressbar
 ./progressbar
+```
 ## 🙌 Author
 
 - **Sourav Das**
